@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "http://yannick-shawn.github.io/"
 title = "My New Hugo Site"
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-cn"
+theme = "LoveIt"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
