@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>Shawn的个人小站</title>
         <link>http://yannick-shawn.github.io/</link>
-        <description>My New Hugo Site</description>
+        <description>Shawn的个人小站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 22 Jun 2021 20:23:18 &#43;0800</lastBuildDate>
             <atom:link href="http://yannick-shawn.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>

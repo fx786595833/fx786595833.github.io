@@ -1,5 +1,5 @@
 baseURL = "http://yannick-shawn.github.io/"
-title = "My New Hugo Site"
+title = "Shawn的个人小站"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
 theme = "LoveIt"
