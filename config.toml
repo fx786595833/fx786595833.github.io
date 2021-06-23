@@ -1,9 +1,71 @@
 baseURL = "http://yannick-shawn.github.io/"
-title = "Shawn的个人小站"
+title = "Shawn Feng的个人小站"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
+hasCJKLanguage = true
 theme = "LoveIt"
 
 [params]
-  # LoveIt theme version
   version = "0.2.X"
+  dateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  
+  [params.home]
+    rss = 10
+    # 主页个人信息
+    [params.home.profile]
+      enable = true
+      # 主页显示头像的 URL
+      # avatarURL = "/images/avatar.png"
+      # 主页显示的网站副标题
+      subtitle = "这是我的个人学习记录网站"
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # 是否显示社交账号
+      social = true
+
+  [params.social]
+    GitHub = "fx786595833"
+    Zhihu = "ggg-17-50"
+    Bilibili = "50251964"
+    Email = "786595833@qq.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    # pre = ""
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    # post = ""
+    name = "文章列表"
+    url = "/posts/"
+    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+    title = ""
+    # weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    # pre = ""
+    # post = ""
+    name = "标签"
+    url = "/tags/"
+    # title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    # pre = ""
+    # post = ""
+    name = "分类"
+    url = "/categories/"
+    # title = ""
+    weight = 3
+
+# Hugo 解析文档的配置
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+[author]
+  name = "Shawn Feng"
+  email = "786595833@qq.com"
