@@ -36,8 +36,8 @@ theme = "LoveIt"
       enable = true
       [params.page.comment.valine]
         enable = true
-        appId = "8CYPQlTbdFXgpvkcWA7UQ5yc-gzGzoHsz"
-        appKey = "pf8pqJ1EQLYsHeTvJhtShNmL"
+        appId = "7b2kaoFB7yV6gub2XMlGY61U-MdYXbMMI"
+        appKey = "9SxcVTed612MvUroH3iPfWAh"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -47,7 +47,7 @@ theme = "LoveIt"
         recordIP = true
         highlight = true
         enableQQ = true
-        serverURLs = "https://shawnfeng.life"
+        serverURLs = "https://7b2kaofb.api.lncldglobal.com"
         emoji = ""
 [menu]
   [[menu.main]]
