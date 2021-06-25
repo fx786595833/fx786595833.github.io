@@ -30,6 +30,25 @@ theme = "LoveIt"
     Bilibili = "50251964"
     Email = "786595833@qq.com"
 
+  [params.page]
+    fontawesome = true
+    [params.page.comment]
+      enable = true
+      [params.page.comment.valine]
+        enable = true
+        appId = "8CYPQlTbdFXgpvkcWA7UQ5yc-gzGzoHsz"
+        appKey = "pf8pqJ1EQLYsHeTvJhtShNmL"
+        placeholder = ""
+        avatar = "mp"
+        meta= ""
+        pageSize = 10
+        lang = ""
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = true
+        serverURLs = "https://shawnfeng.life"
+        emoji = ""
 [menu]
   [[menu.main]]
     identifier = "posts"
