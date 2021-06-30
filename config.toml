@@ -4,6 +4,7 @@ defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
 hasCJKLanguage = true
 theme = "LoveIt"
+publishDir = "docs"
 
 [params]
   version = "0.2.X"
