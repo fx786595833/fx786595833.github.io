@@ -5,6 +5,7 @@ languageCode = "zh-cn"
 hasCJKLanguage = true
 theme = "LoveIt"
 publishDir = "docs"
+enableEmoji = true
 
 [params]
   version = "0.2.X"
